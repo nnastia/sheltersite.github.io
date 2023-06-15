@@ -211,11 +211,11 @@ margin-top:10px;
 }
 .imagegal{
 display: flex;
-width: 90%;
+width: 100%;
 }
 .imagegal img{
 height: 400px;
-width: 100%;
+width: 500px;
 transition: all 0.15s ease;
 
 }
