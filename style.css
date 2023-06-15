@@ -243,4 +243,6 @@ margin-left: 0;
 #img2:checked ~ .m2 {
 margin-left: -100%;
 }
-
+#img3:checked ~ .m3 {
+margin-left: -200%;
+}
