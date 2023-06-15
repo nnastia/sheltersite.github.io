@@ -1,0 +1,248 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.navbar {
+position: absolute;
+top:0;
+left:0;
+display:flex;
+width:100%;
+justify-content: space-between;
+padding:20px;
+background-color:#9CB071;
+font-size:19px;
+}
+.navbar a{
+text-decoration:none;
+color: black;
+font-size:21px;
+}
+ul {
+list-style:none;
+}
+.nav-links {
+display:flex;
+align-items: center;
+}
+.nav-links li {
+margin: 0 30px;
+}
+
+
+.main {
+display:flex;
+align-items: center;
+position:relative;
+background-image: url("https://i.pinimg.com/originals/39/6f/b9/396fb90286728d6573405c60941043e1.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+width:100vw;
+height:92vh;
+margin-top:58px;
+}
+.main h1{
+font-size:54px;
+margin-left:47px;
+margin-bottom:13px;
+font-family:"Luminari",fantasy;
+}
+.main p{
+font-size:40px;
+margin-left:47px;
+font-weight:630;
+margin-bottom:150px;
+}
+
+.function p{
+background-color:#9CB071;
+font-size:50px;
+border:1px solid lightgray;
+text-align:center;
+font-family:"Luminari",fantasy;
+}
+
+.tab {
+width:100%;
+height: auto;
+display:flex;
+flex-direction:row;
+justify-content: space-around;
+flex-wrap:wrap;
+padding: 10px;
+margin-top:20px;
+
+}
+
+.box{
+width:29%;
+height:270px;
+box-sizing:border-box;
+margin:20px;
+background:#9CB071;
+font-size:45px;
+text-align:center;
+line-height:60px;
+
+}
+
+.abcon{
+display:flex;
+
+}
+
+.abcon img{
+border:1px solid lightgrey;
+}
+
+.abcon p{
+font-size:30px;
+margin-left:80px;
+}
+.abtex p{
+background-color:#9CB071;
+font-size:50px;
+border:1px solid lightgray;
+text-align:center;
+font-family:"Luminari",fantasy;
+margin-top:10px;
+}
+
+.wrapcd{
+width:1000px;
+margin:auto;
+margin-top:50px;
+}
+.card{
+transition:0.4s;
+width:300px;
+background:#9CB071;
+text-align:center;
+font-size:20px;
+font-family:sans-serif;
+float:left;
+margin:10px;
+}
+.container{
+padding:2px 16px;
+}
+
+.contain{
+width:90%;
+max-width:500px;
+margin:0 auto;
+padding:20px;
+align-items:center;
+
+}
+
+.form-group{
+width:100%;
+margin-top:20px;
+font-size:20px;
+}
+.form-group input,
+.form-group textarea {
+width:100%;
+padding:5px;
+font-size:10px;
+border:1px solid grey;
+margin-top:5px;
+}
+textarea {
+resize:vertical;
+}
+button[type="submit"] {
+width:100%;
+padding:17px;
+font-size:25px;
+margin-top:10px;
+text-align:center;
+}
+
+
+.contacts {
+width:auto;
+background-color:#9CB071;
+margin-top:30px;
+}
+.conttx{
+font-size:26px;
+display: inline-block;
+text-align:center;
+padding-left:110px;
+margin-top:20px;
+margin-bottom:20px;
+
+}
+.quest{
+align-items: center;
+position:relative;
+text-align:center;
+}
+.quest h1{
+font-size:53px;
+margin-left:47px;
+margin-bottom:13px;
+margin-top:10px;
+text-align:center;
+font-family:"Luminari",fantasy;
+}
+.questb{
+display:inline-block;
+font-size: 40px;
+color: black;
+padding: 10px;
+border:none;
+text-align:center;
+text-decoration:none;
+background-color: #9CB071;
+}
+
+.sliderim{
+position: relative;
+width: 60%;
+overflow: hidden;
+margin-left: 250px;
+margin-top:10px;
+}
+.imagegal{
+display: flex;
+width: 100%;
+}
+.imagegal img{
+height: 400px;
+width: 100%;
+transition: all 0.15s ease;
+
+}
+.imagegal input{
+display: none;
+}
+.dots{
+display: flex;
+justify-content: center;
+margin: 5px;
+}
+.dots label{
+height: 20px;
+width: 20px;
+border-radius: 50%;
+border: solid grey 3px;
+cursor: pointer;
+transition: all 0.15s ease;
+margin: 5px;
+}
+.dots label:hover {background: grey;}
+#img1:checked ~ .m1 {
+margin-left: 0;
+}
+#img2:checked ~ .m2 {
+margin-left: -100%;
+}
+#img3:checked ~ .m3 {
+margin-left: -200%;
+}
