@@ -202,12 +202,12 @@ text-decoration:none;
 background-color: #9CB071;
 }
 
-.sliderim{
+.wrapper{
 
  margin: auto;
   max-width: 950px;
 }
-.imagegal{
+.slider{
 overflow-x: scroll;
   white-space: nowrap;
 }
