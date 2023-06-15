@@ -215,7 +215,7 @@ width: 100%;
 }
 .imagegal img{
 height: 400px;
-width: 120%;
+width: 100%;
 transition: all 0.15s ease;
 
 }
