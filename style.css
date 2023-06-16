@@ -202,6 +202,7 @@ text-decoration:none;
 background-color: #9CB071;
 }
 
+.w3-content {display: flex;}
 .w3-btn,.w3-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
 
 .w3-display-left{position:absolute;top:330%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
